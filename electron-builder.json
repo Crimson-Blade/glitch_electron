@@ -1,0 +1,19 @@
+{
+  "appId": "com.perch.gaming",
+  "productName": "Gaming ERP",
+  "files": ["dist-react","dist-electron"],
+  "icon": "./logo_512x512.png",
+  "directories": {
+    "output": "build"
+  },
+  "win": {
+    "target": ["portable","msi"]
+  },
+  "mac": {
+    "target": "dmg",
+    "category": "utility"
+  },
+  "linux": {
+    "target": "AppImage"
+  }
+}
